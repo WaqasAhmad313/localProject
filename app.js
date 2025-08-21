@@ -1,2 +1,5 @@
 _name = "Waqas Ahmad";
-console.log({_name});
+console.log(`Hello ${_name}!`);
+const first =(data)=>{
+console.log(`Here's the data you send ${data}`)
+}
