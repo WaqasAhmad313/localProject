@@ -12,6 +12,8 @@ const secondfunction = (a,b)=>{
 secondfunction(100,500);
 
 function thirdfunction (a,b){
-    return a * b
+    if (!a) a= 0;
+    if (!b) b = 0;
+    return a * b;
 }
 thirdfunction(10, 20);
